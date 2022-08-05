@@ -8,14 +8,14 @@
     background: #3C3C42;
     color:white;
     height: 100vh;
-    width:20vw;
+    width: 80px;
 }
 .navbar__item{
-    height: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 56px;
     text-align: center;
-    margin-bottom: 15px;
-    padding: 5px auto;
-    background-color:green;
+    justify-content: center;
 }
 .navbar__item:hover {
     background: #373641;
@@ -28,5 +28,5 @@
 }
 
 .navbar__item__svg{
-    height: 25px;
+    height: 20px;
 }
